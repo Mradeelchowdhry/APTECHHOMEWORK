@@ -1,0 +1,8 @@
+<!ELEMENT HNSTATIONERS (product+)>
+<!ELEMENT product (id,productname,quantity,priceperunit,priceperdoz,instock)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT productname (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT priceperunit (#PCDATA)>
+<!ELEMENT priceperdoz (#PCDATA)>
+<!ELEMENT instock (#PCDATA)>

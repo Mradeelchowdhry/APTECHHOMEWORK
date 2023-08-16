@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="index.xsl" type="text/xsl"?>
+<?xml-model href="index.dtd" type="application/xml-dtd"?>
+
+<!-- <!DOCTYPE MOBILESHOP [
+<!ELEMENT HNSTATIONERS (product+)>
+<!ELEMENT product (id,productname,quantity,priceperunit,priceperdoz,instock)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT productname (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT priceperunit (#PCDATA)>
+<!ELEMENT priceperdoz (#PCDATA)>
+<!ELEMENT instock (#PCDATA)>
+]> -->
+
+    <HNSTATIONERS>
+
+        <product>
+        <id>1</id>
+        <productname>pencil</productname>
+        <quantity>12000 units</quantity>
+        <priceperunit>10</priceperunit>
+        <priceperdoz>110</priceperdoz>
+        <instock>yes</instock>
+    </product>
+        
+    <product>
+        <id>2</id>
+        <productname>pen</productname>
+        <quantity>6000 units</quantity>
+        <priceperunit>60</priceperunit>
+        <priceperdoz>700</priceperdoz>
+        <instock>yes</instock>
+    </product>
+        
+    <product>
+        <id>3</id>
+        <productname>eraser</productname>
+        <quantity>15000 units</quantity>
+        <priceperunit>7</priceperunit>
+        <priceperdoz>80</priceperdoz>
+        <instock>yes</instock>
+    </product>
+        
+<product>
+        <id>4</id>
+        <productname>sharpener</productname>
+        <quantity>0 units</quantity>
+        <priceperunit>10</priceperunit>
+        <priceperdoz>110</priceperdoz>
+        <instock>no</instock>
+</product>
+        
+<product>
+        <id>5</id>
+        <productname>board marker</productname>
+        <quantity>500 units</quantity>
+        <priceperunit>80</priceperunit>
+        <priceperdoz>900</priceperdoz>
+        <instock>yes</instock>
+</product>
+
+    </HNSTATIONERS>
